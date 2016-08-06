@@ -1,0 +1,278 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Raleway', sans-serif;
+  color: #222831;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+hr {
+  color: #e5e5e5;
+  width: 100px;
+}
+
+.content {
+  max-width: 600px;
+  min-height: 100%;
+}
+
+.main {
+  padding: 15px;
+  text-align: center;
+}
+
+.content h1 {
+  color: #364F6B;
+  font-family: 'Scope One';
+  font-size: 60px;
+  margin: 0;
+  font-weight: 400;
+  transition: all .3s ease;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.button {
+  display: inline-block;
+  border-bottom: #F5F5F5 1px solid;
+  transition: all .3s ease;
+  color: #364F6B;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  border-bottom: #364F6B 1px solid;
+}
+
+.contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  display: block;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li a {
+  transition: all .3s ease;
+  color: #767676;
+}
+
+.nav li a:hover {
+  color: #222831;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.active a {
+  color: #222831 !important;
+}
+
+.projectText {
+  color: #767676;
+  padding: 0 15px;
+}
+
+.title a {
+  color: #07C;
+  font-size: 20px;
+  border-bottom: #F5F5F5 1px solid;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: #004499;
+  border-bottom: #004499 1px solid;
+}
+
+.projectText h3 {
+  margin: 0;
+}
+
+.projectText p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+
+/* Grub Bucks */
+.grubbucks {
+  background-color: #212121;
+  background-size: cover;
+  color: #fcb13f !important;
+  background-attachment: fixed;
+}
+
+#title {
+  color: #fcb13f;
+}
+
+.grubbucks h3 {
+  color: #fcb13f;
+}
+
+.logo {
+  height: 250px;
+  width: 300px;
+  display: inline-block;
+  background-image: url("http://alexpareto.com/images/GrubBucks.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grubbucks h4 {
+  font-size: 25px;
+}
+
+.grubbucks hr {
+  background-color: #fcb13f;
+  border-color: #fcb13f;
+}
+
+/* Social Icons */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.social-icons li {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.linkedin {
+  background-image: url('../images/LinkedIn-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.linkedin:hover {
+  background-image: url('../images/LinkedIn-color.svg');
+}
+
+.facebook {
+  background-image: url('../images/Facebook-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.facebook:hover {
+  background-image: url('../images/Facebook-color.svg');
+}
+
+.twitter {
+  background-image: url('../images/Twitter-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.twitter:hover {
+  background-image: url('../images/Twitter-color.svg');
+}
+
+.github {
+  background-image: url('../images/Github-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.github:hover {
+  background-image: url('../images/Github-color.svg');
+}
+
+.googleplus {
+  background-image: url('../images/GooglePlus-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.googleplus:hover {
+  background-image: url('../images/GooglePlus-color.svg');
+}
+
+.instagram {
+  background-image: url('../images/Instagram-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.instagram:hover {
+  background-image: url('../images/Instagram-color.svg');
+}
+
+.spotify {
+  background-image: url('../images/Spotify-black.svg');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.spotify:hover {
+  background-image: url('../images/Spotify-color.svg');
+}
+
+.usc {
+  background-image: url('../images/usc-black.gif');
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  transition: all .3s ease;
+}
+
+.usc:hover {
+  background-image: url('../images/usc-color.gif');
+}
+
+/* Media Query */
+@media only screen
+  and (min-device-width: 0px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    body {
+      max-width: 736px;
+    }
+}
+

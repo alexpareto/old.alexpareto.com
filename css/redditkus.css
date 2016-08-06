@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(236, 240, 241);
+  font-family: 'Josefin Slab', serif;
+}
+
+
+.section {
+  background-color: rgb(236, 240, 241);
+  background-size: cover;
+  height: 500px;
+  color: rgb(127, 140, 141);
+  background-attachment: fixed;
+}
+
+.intro {
+  background-color: rgb(236, 240, 241);
+  background-size: cover;
+  color: rgb(127, 140, 141);
+  background-attachment: fixed;
+}
+
+.title {
+  text-align: center;
+}
+
+.top {
+  font-size: 90px;
+}
+
+.haiku {
+  background-color: rgb(236, 240, 241);
+  background-size: cover;
+  height: 300px;
+  color: rgb(127, 140, 141);
+  background-attachment: fixed;
+}
+
+.divider {
+  height: 100px;
+  background-color: rgb(39, 174, 96);
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.year {
+  padding-left: 50px;
+  padding-top: 40px;
+  color: rgb(236, 240, 241);
+  font-size: 70px;
+}
+
+.one {
+  background-color: rgb(39, 174, 96);
+}
+
+.two {
+  background-color: rgb(230, 126, 34);
+}
+
+.three {
+  background-color: rgb(41, 128, 185);
+}
+
+.four {
+  background-color: rgb(52, 73, 94);
+}
+
+.five {
+  background-color: rgb(230, 126, 34);
+}
+
+.six {
+  background-color: rgb(241, 196, 15);
+}
+
+.seven {
+  background-color: rgb(243, 156, 18);
+}
+
+.eight {
+  background-color: rgb(22, 160, 133);
+}
+
+.nine {
+  background-color: rgb(231, 76, 60);
+}
+
+.ten {
+  background-color: rgb(26, 188, 156);
+}
+
+.footer {
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  background-color: rgb(243, 156, 18);
+  height: 150px;
+}
