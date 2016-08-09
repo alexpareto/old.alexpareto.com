@@ -17,7 +17,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600|Scope+One" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600|Scope+One" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,13 +34,15 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-third column">
-        <div class="aboutme">
+      <div class="one-third column aboutholder">
+        <div class="about">
         <h1>Alex Pareto</h1>
-          <p>Studying computer science at USC in LA. I love working on tough technical and business problems.</p>
-          <p class="title">Email: pareto at usc dot edu</p>
+          <p>Most likely doing one of the following: coding, traveling, sipping on coffee, playing guitar, or snowboarding.</p>
+          <p>Currently founder of <a href="http://scopeusc.com">Scope</a> and CS student at <a href="http://www-scf.usc.edu/~pareto/">USC</a>. I love working on tough technical problems.</p>
+          <div class="contact-info">
+          <p>Email: pareto at usc dot edu</p>
+          </div>
+          <hr>
           <ul class="social-icons">
             <a href="https://www.linkedin.com/in/alexpareto" target="_blank"><li class="linkedin"></li></a>
             <a href="https://www.facebook.com/alex.pareto" target="_blank"><li class="facebook"></li></a>
@@ -49,26 +51,29 @@
             <a href="https://plus.google.com/u/0/+AlexPareto/" target="_blank"<li class="googleplus"></li></a>
             <a href="https://www.instagram.com/alexpareto/" target="_blank"><li class="instagram"></li></a>
             <a href="https://open.spotify.com/user/alexpareto" target="_blank"><li class="spotify"></li></a>
-            <a href="http://www-scf.usc.edu/~pareto/" target="_blank"><li class="usc"></li></a>
+            <!-- Hide USC for now
+            <a href="http://www-scf.usc.edu/~pareto/" target="_blank"><li class="usc"></li></a>-->
           </ul>
           </div>
       </div>
-      <div class="two-third column">
+    <div class="row">
+      <div class="one-third column holder">
+          <p>Hidden</p>
+      </div>
+      <div class="two-thirds column">
         <div class="projects">
             <h2>Projects</h2>
-            <h3 class='title'><a href="http://alexpareto.com/scope">USC Scope</a></h3><p>bringing together CS students to build cool things</p>
-            <h3 class='title'><a href="http://visualify.xyz">Visualify</a></h3><p>view your top artists and tracks on Spotify</p>
-            <h3 class='title'><a href="http://alexpareto.com/grubbucks">GrubBucks</a></h3><p>platform to exchange extra dining dollars for cash to help make on campus food more affordable</p>
-            <h3 class='title'><a href="http://usclavalab.org">LavaLab</a></h3><p>alumni of USC's on campus incubator</p>
-            <h3 class='title'><a href="http://lifetimegoods.com">Lifetime Goods</a></h3><p>web store built from the ground up</p>
-            <h3 class='title'><a href="http://guitardash.alexpareto.com">Guitar Dash</a></h3><p>adaptive learn-to-play guitar web app, my first coding project ever</p>
-            <h3 class='title'><a href="https://www.andover.edu/StudentLife/CommunityService/ProjectsAndPrograms/Pages/RegularProjects.aspx">ARC</a></h3><p>community service program where students build relationships with those in the special needs community</p>
-            <h3 class='title'><a href="http://phillipian.net/2014/01/16/new-on-campus-andover-photography-club/">Andover Photography Club</a></h3><p>showcasing photography talent on campus and raising money for need-based scholarships</p>
+            <h3 class='title'><a href="http://scopeusc.com">Scope USC</a> / 2016</h3><p>Fostering a more cohesive structure for student-developers to build projects outside of the classroom and to contribute to the open source community</p>
+            <h3 class='title'><a href="http://visualify.xyz">Visualify</a> / 2016 </h3><p>One click to view your top artists and tracks on Spotify</p>
+            <h3 class='title'><a href="http://alexpareto.com/grubbucks">GrubBucks</a> / 2016 </h3><p>A platform that allows students to exchange extra dining dollars for cash in order to help make on campus food more affordable</p>
+            <h3 class='title'><a href="http://usclavalab.org">LavaLab</a> / 2016 </h3> <p>Alumni of USC's premier on campus incubator</p>
+            <h3 class='title'><a href="http://lifetimegoods.com">Lifetime Goods</a> / 2016 </h3><p>A web store curating the longest lasting products on Amazon built from the ground up in Meteor.js</p>
+            <h3 class='title'><a href="https://www.andover.edu/StudentLife/CommunityService/ProjectsAndPrograms/Pages/RegularProjects.aspx">ARC</a> / 2015 </h3><p>A community service program where students build relationships with those in the special needs community</p>
+            <h3 class='title'><a href="http://phillipian.net/2014/01/16/new-on-campus-andover-photography-club/">Andover Photography Club</a> / 2015 </h3><p>showcasing photography talent on campus and raising money for need-based scholarships</p>
+           <h3 class='title'>Guitar Dash / 2014</h3> <p>An adaptive learn-to-play guitar web app, my first coding project ever</p>
         </div>
       </div>
     </div>
-  </div>
-
 
   <!--Google Analytics-->
   <script>
@@ -81,6 +86,7 @@
     ga('send', 'pageview');
 
   </script>
+  <script src="js.js"></script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

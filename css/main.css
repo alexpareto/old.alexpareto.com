@@ -3,23 +3,72 @@ html, body {
 }
 
 body {
-  background-color: #F5F5F5;
+  background-color: #fff;
   font-family: 'Raleway', sans-serif;
   color: #222831;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0;
+  font-weight: 300;
 }
 
 hr {
-  color: #e5e5e5;
+  color: #1A4B75;
+  background-color: #1A4B75;
   width: 100px;
+  border-color: #222831;
 }
 
-.content {
-  max-width: 600px;
-  min-height: 100%;
+a {
+  text-decoration: none;
+  color: #222831;
+  border-bottom: 1px solid #222831;
+  transition: all .3s ease-in-out;
+}
+
+a:hover {
+  color: #07C;
+  border-bottom: 1px solid #07C;
+}
+
+.social-icons a {
+  border: none;
+}
+
+
+.aboutholder {
+  background-color: #4D7EA8;
+  color: #222831;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  transition: all .3s ease;
+}
+
+.holder {
+  display: none;
+}
+
+@media screen and (min-width: 550px)
+{
+  .aboutholder {
+    height: 100%;
+    position: fixed;
+    left: 0;
+  }
+
+  .holder {
+    display: block;
+  }
+}
+
+.contact-info p {
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.projects {
+  padding: 15px;
 }
 
 .main {
@@ -27,8 +76,7 @@ hr {
   text-align: center;
 }
 
-.content h1 {
-  color: #364F6B;
+h1 {
   font-family: 'Scope One';
   font-size: 60px;
   margin: 0;
@@ -36,8 +84,10 @@ hr {
   transition: all .3s ease;
 }
 
-.content p {
-  font-size: 20px;
+.projects p {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -92,15 +142,19 @@ hr {
   color: #222831 !important;
 }
 
-.projectText {
+.projects {
   color: #767676;
-  padding: 0 15px;
+}
+
+.projects h2 {
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .title a {
   color: #07C;
   font-size: 20px;
-  border-bottom: #F5F5F5 1px solid;
+  border-bottom: #fff 1px solid;
   transition: all .3s ease;
   text-decoration: none;
 }
@@ -110,13 +164,9 @@ hr {
   border-bottom: #004499 1px solid;
 }
 
-.projectText h3 {
+.projects h3 {
+  font-size: 20px;
   margin: 0;
-}
-
-.projectText p {
-  margin: 0;
-  margin-bottom: 20px;
 }
 
 
@@ -264,15 +314,5 @@ hr {
 
 .usc:hover {
   background-image: url('../images/usc-color.gif');
-}
-
-/* Media Query */
-@media only screen
-  and (min-device-width: 0px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    body {
-      max-width: 736px;
-    }
 }
 
