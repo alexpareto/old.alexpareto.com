@@ -316,3 +316,7 @@ h1 {
   background-image: url('../images/usc-color.gif');
 }
 
+.intro {
+  font-style: italic;
+}
+
