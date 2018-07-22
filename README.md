@@ -1,6 +1,6 @@
 # alexpareto.com
 
-My personal website, mainly a place for me to share my past and present projects. [Check it out](http://alexpareto.com).
+My personal website.
 
 ## Implementation and Other Notes
 
