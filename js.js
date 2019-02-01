@@ -16,6 +16,7 @@ preload(
     "images/LinkedIn-color.svg",
     "images/Spotify-color.svg",
     "images/Twitter-color.svg",
-    "images/usc-color.png"
+    "images/usc-color.png",
+    "images/Snapchat-color.svg"
 )
 //--><!]]>
