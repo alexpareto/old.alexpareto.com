@@ -1,4 +1,3 @@
-
 var aboutholder = document.getElementsByClassName("aboutholder");
 <!--//--><![CDATA[//><!--
 var images = new Array()
@@ -19,4 +18,14 @@ preload(
     "images/usc-color.png",
     "images/Snapchat-color.svg"
 )
+
+// Add event listeners to project links
+document.addEventListener("DOMContentLoaded", function() {
+    var projectLinks = document.querySelectorAll(".project-link");
+    projectLinks.forEach(function(link) {
+        link.addEventListener("click", function() {
+            console.log("Project clicked: " + link.textContent);
+        });
+    });
+});
 //--><!]]>
