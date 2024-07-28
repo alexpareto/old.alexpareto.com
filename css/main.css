@@ -71,6 +71,7 @@ a:hover {
 
 .projects {
   padding: 15px;
+  margin: 20px 0;
 }
 
 .main {
@@ -150,17 +151,21 @@ h1 {
 .projects h2 {
   font-size: 1.5em;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
-.title a {
+.projects p {
+  margin-bottom: 15px;
+}
+
+.projects a {
   color: #07c;
-  font-size: 20px;
   border-bottom: #fff 1px solid;
   transition: all 0.3s ease;
   text-decoration: none;
 }
 
-.title a:hover {
+.projects a:hover {
   color: #004499;
   border-bottom: #004499 1px solid;
 }
@@ -331,4 +336,18 @@ h1 {
 
 .intro {
   font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 10px;
+  }
+
+  .projects h2 {
+    font-size: 1.2em;
+  }
+
+  .projects p {
+    font-size: 16px;
+  }
 }
